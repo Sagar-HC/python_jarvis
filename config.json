@@ -1,0 +1,140 @@
+{
+    "wake_word": "jarvis",
+    "strict_wake_word": true,
+    "microphone_device": null,
+    "user_name": "Boss",
+    "default_city": "",
+    "voice_rate": 180,
+    "voice_volume": 1.0,
+    "sound_feedback": true,
+    "ai_provider": "auto",
+    "ai_model": "",
+    "ollama_url": "http://localhost:11434",
+    "ollama_model": "llama3",
+    "sites": {
+        "youtube": "https://www.youtube.com",
+        "google": "https://www.google.com",
+        "gmail": "https://mail.google.com",
+        "github": "https://github.com",
+        "whatsapp": "https://web.whatsapp.com",
+        "linkedin": "https://www.linkedin.com",
+        "stack overflow": "https://stackoverflow.com",
+        "maps": "https://maps.google.com",
+        "chatgpt": "https://chatgpt.com",
+        "claude": "https://claude.ai",
+        "reddit": "https://reddit.com",
+        "twitter": "https://twitter.com",
+        "x": "https://x.com",
+        "netflix": "https://netflix.com",
+        "spotify": "https://open.spotify.com"
+    },
+    "apps": {
+        "notepad": {"Windows": "notepad", "Darwin": "TextEdit", "Linux": "gedit"},
+        "calculator": {"Windows": "calc", "Darwin": "Calculator", "Linux": "gnome-calculator"},
+        "chrome": {"Windows": "chrome", "Darwin": "Google Chrome", "Linux": "google-chrome"},
+        "vs code": {"Windows": "code", "Darwin": "Visual Studio Code", "Linux": "code"},
+        "paint": {"Windows": "mspaint", "Darwin": "Preview", "Linux": "gimp"},
+        "file explorer": {"Windows": "explorer", "Darwin": "Finder", "Linux": "nautilus"},
+        "terminal": {"Windows": "cmd", "Darwin": "Terminal", "Linux": "gnome-terminal"},
+        "powershell": {"Windows": "powershell", "Darwin": "Terminal", "Linux": "gnome-terminal"},
+        "word": {"Windows": "winword", "Darwin": "Microsoft Word", "Linux": "libreoffice --writer"},
+        "excel": {"Windows": "excel", "Darwin": "Microsoft Excel", "Linux": "libreoffice --calc"},
+        "powerpoint": {"Windows": "powerpnt", "Darwin": "Microsoft PowerPoint", "Linux": "libreoffice --impress"},
+        "task manager": {"Windows": "taskmgr", "Darwin": "Activity Monitor", "Linux": "gnome-system-monitor"},
+        "settings": {"Windows": "ms-settings:", "Darwin": "System Preferences", "Linux": "gnome-control-center"},
+        "control panel": {"Windows": "control", "Darwin": "System Preferences", "Linux": "gnome-control-center"},
+        "spotify": {"Windows": "spotify", "Darwin": "Spotify", "Linux": "spotify"},
+        "antigravity": {
+            "Windows": "C:\\Users\\Sagar H C\\Desktop\\Antigravity.lnk",
+            "Darwin": "Antigravity",
+            "Linux": "antigravity"
+        },
+        "mongodb compass": {
+            "Windows": "C:\\Users\\Sagar H C\\Desktop\\MongoDB Compass.lnk",
+            "Darwin": "MongoDB Compass",
+            "Linux": "mongodb-compass"
+        },
+        "mongodb": {
+            "Windows": "C:\\Users\\Sagar H C\\Desktop\\MongoDB Compass.lnk",
+            "Darwin": "MongoDB Compass",
+            "Linux": "mongodb-compass"
+        },
+        "compass": {
+            "Windows": "C:\\Users\\Sagar H C\\Desktop\\MongoDB Compass.lnk",
+            "Darwin": "MongoDB Compass",
+            "Linux": "mongodb-compass"
+        },
+        "the last of us": {
+            "Windows": "C:\\Users\\Public\\Desktop\\The Last of Us - Part II Remastered.lnk"
+        },
+        "last of us": {
+            "Windows": "C:\\Users\\Public\\Desktop\\The Last of Us - Part II Remastered.lnk"
+        },
+        "the last of us part 2": {
+            "Windows": "C:\\Users\\Public\\Desktop\\The Last of Us - Part II Remastered.lnk"
+        },
+        "the last of us part ii remastered": {
+            "Windows": "C:\\Users\\Public\\Desktop\\The Last of Us - Part II Remastered.lnk"
+        },
+        "discord": {
+            "Windows": "C:\\Users\\Sagar H C\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Discord Inc\\Discord.lnk",
+            "Darwin": "Discord",
+            "Linux": "discord"
+        },
+        "brave": {
+            "Windows": "C:\\Users\\Sagar H C\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Brave.lnk",
+            "Darwin": "Brave Browser",
+            "Linux": "brave-browser"
+        },
+        "postman": {
+            "Windows": "C:\\Users\\Sagar H C\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Postman\\Postman.lnk",
+            "Darwin": "Postman",
+            "Linux": "postman"
+        },
+        "steam": {
+            "Windows": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Steam\\Steam.lnk",
+            "Darwin": "Steam",
+            "Linux": "steam"
+        },
+        "vlc": {
+            "Windows": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\VideoLAN\\VLC media player.lnk",
+            "Darwin": "VLC",
+            "Linux": "vlc"
+        },
+        "obs": {
+            "Windows": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\OBS Studio\\OBS Studio (64bit).lnk",
+            "Darwin": "OBS",
+            "Linux": "obs"
+        },
+        "obs studio": {
+            "Windows": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\OBS Studio\\OBS Studio (64bit).lnk",
+            "Darwin": "OBS",
+            "Linux": "obs"
+        },
+        "mysql workbench": {
+            "Windows": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\MySQL\\MySQL Workbench 8.0 CE.lnk",
+            "Darwin": "MySQLWorkbench",
+            "Linux": "mysql-workbench"
+        },
+        "mysql": {
+            "Windows": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\MySQL\\MySQL Workbench 8.0 CE.lnk",
+            "Darwin": "MySQLWorkbench",
+            "Linux": "mysql-workbench"
+        },
+        "premiere pro": {
+            "Windows": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Adobe Premiere Pro 2024.lnk",
+            "Darwin": "Adobe Premiere Pro",
+            "Linux": "premiere"
+        },
+        "premiere": {
+            "Windows": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Adobe Premiere Pro 2024.lnk",
+            "Darwin": "Adobe Premiere Pro",
+            "Linux": "premiere"
+        },
+        "after effects": {
+            "Windows": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Adobe After Effects 2023.lnk",
+            "Darwin": "Adobe After Effects",
+            "Linux": "after-effects"
+        }
+    }
+}

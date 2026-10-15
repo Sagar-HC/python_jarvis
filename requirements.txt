@@ -1,0 +1,15 @@
+# JARVIS Desktop Assistant Dependencies
+
+# Voice & Speech
+pyttsx3>=2.90
+SpeechRecognition>=3.10.0
+sounddevice>=0.4.6
+
+# System & OS Automations
+psutil>=5.9.0
+pyautogui>=0.9.54
+
+# Web & AI (Optional / Supported)
+requests>=2.28.0
+python-dotenv>=1.0.0
+google-genai>=0.1.0
